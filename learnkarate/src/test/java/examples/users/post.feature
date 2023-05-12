@@ -51,6 +51,7 @@ Scenario: POST DEMO 5
     When method POST
     Then status 201
     And def expectedOutput = read ('response-post.json')
+    #can be And match response == expectedOutput
     #response can be read from here or put on background
     And print response 
 

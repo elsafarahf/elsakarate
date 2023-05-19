@@ -1,3 +1,4 @@
+@users
 Feature: sample test POST
 
 Background: 
